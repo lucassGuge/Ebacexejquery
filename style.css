@@ -1,0 +1,83 @@
+/*Css geral*/
+body {
+    background-color: #666666;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    font-weight: bold;
+}
+.container{
+   
+    width: 100%;
+    flex-direction: column; 
+    color: antiquewhite;
+    font-size: large;    
+}
+
+/*cabecalho*/
+.cabecalho{
+    display: flex;
+    padding-left: 3em;
+    padding-top: 2em;
+    background-color: #333333;
+    
+}
+.logoImg{
+    flex: 1;
+    max-width: 30%;  
+    padding: 0.5em;  
+}
+.nav-Bar{
+    flex: 1;
+    max-width: auto;    
+}
+/*conteudo*/
+
+
+.form-box, .formAtv, .atvAdd {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.formAtv, .atvAdd{
+    justify-content: space-between;
+    
+}
+.formAtv{
+    display: flex;
+    flex-direction: row;
+    border: solid 0.5em #222222;
+}
+/*Button e Input*/
+
+button{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+input {
+    padding: 0.5em;
+}
+#dataA, #horaA{
+    cursor: pointer;
+}
+/*lista CSS*/
+ul{
+    list-style-type: none;
+    width: 100%;
+    padding:auto;
+}
+li {
+    display: inline-block;
+    width: auto;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+#trf {
+    padding: 0.5em;
+    max-width: 33%;
+    cursor: pointer;
+    border: solid 0.5em #222222;
+}

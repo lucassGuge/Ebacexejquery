@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-tasks-automation-technology-flaticons-lineal-color-flat-icons.png" alt="external-tasks-automation-technology-flaticons-lineal-color-flat-icons">
+    <link rel="stylesheet" href="style.css">    
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+
+            <div class="logoImg">
+                <img  src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-tasks-automation-technology-flaticons-lineal-color-flat-icons.png" alt="external-tasks-automation-technology-flaticons-lineal-color-flat-icons"/>
+            </div>
+            <div class="nav-Bar">
+                <h1>Lista de Tarefas</h1>
+            </div>
+
+        </header>
+
+        <section class="main">
+
+            <div class="form-box">
+                <form class="formAtv">
+                    <ul>
+                        <li id="atvA">
+                            <input type="text" id="tarefa" placeholder="Qual a sua Tarefa ?">
+                        </li>
+                        <li id="dataA">
+                            <label for="data">Data:</label>
+                            <input type="date" id="data" name="data">                            
+                        </li>
+                        <li id="horaA">
+                            <label for="hora">Hora:</label>
+                            <input type="time" id="hora" name="hora">
+                        </li>
+                        <li id="btnA">
+                            <button type="submit" id="adicionar">Adicionar Tarefa</button>
+                        </li>
+                        
+                    </ul>
+                    
+                </form>
+            </div>
+            <div class="atvAdd">
+                <ul id="listaTarefas">
+                    <!-- As atividades adicionadas serão exibidas aqui -->
+                </ul>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+        </footer>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+       
+</body>
+</html>
